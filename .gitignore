@@ -1,0 +1,29 @@
+# Binaries & Executables
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+dist/
+gdrive-daemon
+
+# Sensitive Credentials (DO NOT COMMIT)
+token.json
+credentials.json
+client_secret.json
+*.pem
+*.key
+*.env
+.env*
+
+# Logs & Runtime
+*.log
+daemon.log
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
